@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Beanco Font';
+  src: url('./font/Beanco\ Font.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-size: swap;
+}

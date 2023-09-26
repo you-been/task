@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body {
+  font-family: 'dovemayo_gothic', -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  background: #ddd url(./images/cork-board.webp);
+  
+}
+/**** container ****/
+.container {
+  border: 4px solid #eeb0b0;
+  width: 940px;
+  margin: 20px auto;
+  background-color: white;
+}
+/**** header ****/
+.container header h1 {
+  box-sizing: border-box;
+  color: white;
+  height: 130px;
+font-family: 'Pacifico', cursive;
+font-size: 33px;
+line-height: 0.9;
+background: #7d1e6a url(./images/logo.png) no-repeat 25px 50% / 90px;
+padding: 35px 0 0 130px;
+/* display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: center; */
+}
+.container header h1 em {
+  display: block;
+  font-size: 36px;
+  font-family: 'Shrikhand', cursive;
+  font-style: italic;
+}
+.container header .global_menu {
+  background-color: #ffcd38;
+  color: #7d1e6a;
+  font-weight: bold;
+  display: flex;
+}
+.container header .global_menu li a {
+  display: block;
+  width: 100px; height: 46px;
+  line-height: 46px;
+  text-align: center;
+}
+.container header .global_menu li a:hover {
+  background-color: #d30e00;
+  color: white;
+}

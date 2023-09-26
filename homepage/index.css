@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+a { text-decoration: none; color: #db2222;}
+body {width: 400px;}
+
+/**** header ****/
+header {
+  height: 65px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+/**** footer ****/
+footer {
+  height: 176px;
+  background-color: black;
+  color: white;
+}
+
+/**** main page ****/
+main {
+  background-color: rgb(112, 112, 112);
+}
+
+/**** section1 ****/
+.section1 {
+  background-color: rgb(233, 180, 189);
+}
+.section1 ul {
+  list-style: none;
+  padding: 0;
+}
+.section1 ul li {
+  background-color: #bbbbbb;
+  width: 312px;
+}
+.section1 ul li dd {
+  margin: 0;
+}
+/**** section2 ****/
+.section2 {
+  background-color: rgb(255, 207, 179);
+}
+.section2 .class2-1 .description1 {
+  width: 330px;
+  background-color: #bbbbbb;
+}
+.section2 .class2-1 .description1 a {
+  border: black 1px solid;
+}
+.section2 .class2-2 .description2 {
+  width: 330px;
+  background-color: rgb(187, 187, 187);
+}
+.section2 .class2-2 .description2 a {
+  border: black 1px solid;
+}
+
+/**** section3 ****/
+.section3 {
+  background-color: rgb(255, 239, 151);
+}
+.section3 h4 {
+  width: 220px;
+  background-color: #bbbbbb;
+} 
+.section3 p {
+  width: 314px;
+  background-color: #bbbbbb;
+} 
+
+/**** section4 ****/
+.section4 {
+  background-color: rgb(141, 224, 145);
+}
+.section4 .class4-1 {
+width: 192px;
+background-color: #bbbbbb;
+}
+.section4 .class4-2 {
+  width: 285px;
+  background-color: #bbbbbb;
+  }
+.section4 .class4-3 {
+  width: 192px;
+  background-color: #bbbbbb;
+  }
+.section4 .class4-4 {
+  width: 192px;
+  background-color: #bbbbbb;
+  }
+.section4 .class4-5 {
+  width: 192px;
+  background-color: #bbbbbb;
+  }
+.section4 .class4-6 {
+  width: 253px;
+  background-color: #bbbbbb;
+  }  
+.section4 .class4-7 {
+  width: 253px;
+  background-color: #bbbbbb;
+  }  
+.section4 .class4-8 {
+  width: 300px;
+  background-color: #bbbbbb;
+  }  
+.section4 .class4-9 {
+  width: 302px;
+  background-color: #bbbbbb;
+  }  
+.section4 .class4-10 {
+  width: 253px;
+  background-color: #bbbbbb;
+  }  
+
+/**** section5 ****/
+.section5 {
+  background-color: rgb(174, 202, 255);
+}
+
+/**** section6 ****/
+.section6 {
+  background-color: rgb(225, 192, 255);
+  display: flex;
+  flex-flow: column wrap;
+}
+.section6 ul {
+  list-style: none;
+  padding: 0;
+}
+
+/**** section7 ****/
+.section7 {
+  background-color: rgb(255, 136, 171);
+}
+.section7 .contact {
+  background-color: #bbbbbb;
+  width: 292px;
+}
+.section7 form {
+background-color: #bbbbbb;
+display: flex;
+flex-direction: column;
+width: 346px;
+}

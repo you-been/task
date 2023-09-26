@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+
+/**** main ****/
+.container main {
+  display: flex;
+}
+.container main article {
+  background-color: #f1eee9;
+  /*width: 650px;
+  width: 69%; 650/932*100 */
+ width: 7;
+ padding: 30px 20px;
+}
+.container main aside {
+/*width: 282px; 
+width 31%; container: 932px - article:650px */
+flex-grow: 3;
+}
+.container main aside h2 {
+  color: #d30e00;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 30px 20px;
+}
+.container main aside .recipe a{
+  display: block;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #d30e00;
+  padding: 20px 0 15px 20px;
+}
+.container main aside .recipe a:hover {
+  background-color: #d30e00;
+  color: white;
+}
+.container main aside address {
+  margin: 30px 20px;
+  font-weight: bold;
+} 
+.container main article .box {
+  display: flex;
+  margin-bottom: 40px;
+}
+.container main article .box figure {
+  background-color: #FFF;
+  border: 1px solid #d30e00;
+  text-align: right;
+  color: #9c999c;
+  font-style: italic;
+  font-size: 14px;
+  padding: 8px;
+  margin-right: 20px;
+}
+.container main article .box figure figcaption {
+  margin-top: 8px;
+}
+.container main article .box .txt_wrapper {
+  width: 280px;
+}
+.container main article .box .txt_wrapper h2 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.container main article .box .txt_wrapper h3 {
+  font-weight: bold;
+  color: #d30e00;
+}
+
+
