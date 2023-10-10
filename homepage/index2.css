@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+html {font-size: 10px;}
+a { text-decoration: none; color: inherit;}
+body {width: 100vw; margin: 0; font-family: 'NotoSansKR', sans-serif;}
+ul, menu {list-style: none; padding: 0;}
+
+main {background: url(./images/img-05.jpg) no-repeat 100% / cover; height: 1080px;}
+/**** header ****/
+header {
+  background-color: transparent;
+  width: 100%;}
+.wrapper {
+  padding: 0 30px;
+  width: calc(100% - 60px);
+  height: 80px;
+  line-height: 80px; 
+  background-color: transparent;
+  border-bottom: 1px white solid;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  }
+.wrapper h1 {
+  display: flex;
+  align-items: center;
+}
+.wrapper h1 a {height: 80px;}
+.wrapper .gnb_menu {
+    display: flex;
+    align-items: center;
+  }
+  .wrapper .gnb_menu li a {
+    padding: 19px 15px;
+    box-sizing: border-box;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .wrapper .gnb_menu li a:hover {
+    background-color: #204b45;
+  }
+.wrapper img {height: 80px;}
+.wrapper>a {padding: 0 15px;}
+.wrapper>a:hover {color: #204b45;}
+main .title {
+  width: 31.25%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 57%;
+  top: 17%;
+  line-height: 1;
+}
+main .title h2{
+  font-family: 'Montserrat', cursive;
+  font-weight: 800;
+  font-size: 7.2rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 15px;
+}
+main .title p{
+  font-family: 'Notosans KR', sans-serif;
+  font-size: 2.4rem;
+  padding: 0 15px;
+  line-height: 1.5;
+}
+main .title a{
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  width: 115px;
+  color: white;
+  border: 3px solid white;
+  font-weight: bold;
+  padding: 15px 42px;
+  margin-top: 48px;
+}
+
+/**** section1 ****/
+.section1 ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  align-items: center;
+}
+.section1 ul .achievement {
+  box-sizing: border-box;
+  padding: 144px;
+  width: 25%;
+}
+.section1 ul .achievement .item {width: 10vw;}
+.section1 ul .achievement h3 {
+  font-size: 5.6rem;
+  margin: 0;
+  color: #204b45;
+}
+.section1 ul .achievement h4 {
+  font-size: 3.2rem;
+  font-family: 'Montserrat', cursive;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.section1 ul .achievement p {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.section1 ul .achievement1 {background-color: #fff;}
+.section1 ul .achievement2 {background-color: #F0F0F0;}
+.section1 ul .achievement3 {background-color: #E6E6E6;}
+.section1 ul .achievement4 {background-color: #DADADA;}
+
+/**** section2 ****/
+.section2 .class2-1, .section2 .class2-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section2 .img {
+  width: 50%;
+  object-fit: cover;
+}
+.section2 .description {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 144px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Montserrat', cursive;
+}
+.section2 .description p:nth-child(1) {
+  width: 50%;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+.section2 .description h2{
+  margin: 0;
+  width: 100%;
+  font-size: 7.5rem;
+  font-weight: 800;
+}
+.section2 .description p:nth-child(3) {
+  width: 100%;
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin: 24px 0;
+}
+.section2 .description a {
+  display: block;
+  box-sizing: border-box;
+  border: black 1px solid;
+  width: 155px; height: 50px;
+  padding: 10px 25px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'NotoSansKR', sans-serif;
+}
+.section2 .description1 {
+  background-color: #204b45;
+  color: white;}
+.section2 .description1 a {
+  color: inherit;
+  border-color: white;
+}
+.section2 .description1 h2{text-transform: capitalize;}
+
+/**** section3 ****/
+.section3 {
+  background-color: #FAFAFA;
+  padding: 108px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section3 h4 {
+  width: 34%;
+  box-sizing: border-box;
+  margin: 0 0 18px;
+  line-height: 1.4;
+  font-size: 3.2rem;
+  font-family: 'Montserrat', cursive;
+  font-weight: 800;
+} 
+.section3 p {
+  margin: 0px;
+  width: 50%;
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin: 0 0 18px;
+  box-sizing: border-box;
+} 
+.section3 .video {
+display: flex;
+justify-content: center;
+margin: 50px auto 0;
+width: 100%;
+}
+
+/**** section4 ****/
+.section4 {color: white; display: flex; flex-wrap: wrap; align-items: flex-start; position: relative; font-family: 'Montserrat', cursive;}
+.section4 .class {aspect-ratio: 1 / 1;}
+.section4 .class {
+  box-sizing: border-box;
+  padding: 48px;
+}
+.section4 .class svg {
+  fill: white;
+  padding: 10px 0 0;
+  height: 28px;
+}
+.section4 .class p {line-height: 1.8;}
+.section4 .class h3 {line-height: 1.5;}
+.section4 .class h4 {font-size: 2.4rem; font-weight: 300; margin: 0;} 
+.section4 .class .content4-1 h3, .section4 .class .content4-3 h3, .section4 .class .content4-4 h3 {font-size: 3.6rem; margin: 0;}
+.section4 .class .content4-2 h3, .section4 .class .content4-5 h3 {font-size: 2.8rem; font-weight: 400; margin: 0;}
+.content4-1, .content4-2, .content4-3, .content4-4, .content4-5, .content4-6, .content4-7, .content4-9, .content4-10 {
+  width: 100%; height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.section4 .class4-1 {
+width: 50%;
+background: url(./images/01.jpg) no-repeat 100% / cover;
+}
+.section4 .class4-2 {
+  background: url(./images/05.jpg) no-repeat 100% / cover;
+  width: 25%; 
+}
+.section4 .class4-3 {
+  background: url(./images/04.jpg) no-repeat 100% / cover;
+  width: 25%; 
+}
+.section4 .class4-4 {
+  background: url(./images/02.jpg) no-repeat 100% / cover;
+  width: 25%; 
+  position: absolute;
+  left: 50vw; top: 25vw;
+}
+.section4 .class4-5 {
+  background: url(./images/06.jpg) no-repeat 100% / cover;
+  width: 25%; 
+  position: absolute;
+  left: 75vw; top: 25vw;
+}
+
+.section4 .class4-6,.section4 .class4-7, .section4 .class4-9, .section4 .class4-10 {width: 25%;} 
+.section4 .class4-6 svg,.section4 .class4-7 svg, .section4 .class4-8 svg, .section4 .class4-9 svg, .section4 .class4-10 svg {height: 64px; width: 64px;}  
+.section4 .class4-8 {
+  width: 50%; 
+  text-align: center; 
+  color: #204b45; 
+  background: url(./images/bg-square-3.jpg) no-repeat 100% / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4 .class4-8 .content4-8 {width: 480px}
+.section4 .class4-8 h3 {
+  font-size: 3.2rem; 
+  font-family: 'Montserrat', cursive; 
+  font-weight: 800; 
+  text-transform: capitalize;
+  margin: 0;
+}
+.section4 .class4-8 p {font-size: 1.8rem; font-family: 'NotoSansKR', sans-serif; margin: 0;}
+
+.section4 .class4-6 h3,.section4 .class4-7 h3, .section4 .class4-10 h3 {
+  font-size: 3.2rem;
+  margin: 0 0 18px;
+  font-family: 'Montserrat', cursive;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.section4 .class4-6 p,.section4 .class4-7 p, .section4 .class4-10 p {
+  font-size: 1.8rem;
+  padding-bottom: 16px;
+  margin: 0;
+  font-family: 'NotoSansKR', sans-serif;
+  font-weight: 400;
+}
+.section4 .class4-6, .section4 .class4-10 {
+  background-color: white;
+  color: #204b45;
+}
+.section4 .class4-6 svg, .section4 .class4-10 svg, .section4 .class4-8 svg {
+  fill: #204b45;
+}
+.section4 .class4-7 {
+  color: white;
+  background-color: #204b45;
+  }  
+.section4 .class4-9 {
+  background: url(./images/03.jpg) no-repeat 100% /cover; 
+  position: absolute;
+  left: 0; top: 75vw;
+  }  
+.section4 .class4-9 h3 {
+  font-family: 'Montserrat', cursive;
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin: 0;
+}
+.section4 .class4-10 {
+  position: absolute;
+  left: 25vw; top: 75vw;
+}

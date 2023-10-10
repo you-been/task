@@ -2,53 +2,65 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
   <title>homepage_mobile</title>
-
+  <!-- 폰트 -->
+  <link rel="stylesheet" href="./font.css">
+  <!-- 스타일 -->
   <link rel="stylesheet" href="./index.css">
 
 </head>
 <body>
   <header>
-    <h1><img src="./images/logo-dark.png" alt="logo"></h1>
-    <img src="./images/menu.svg" alt="menu icon">
+    <div class="wrapper">
+      <h1><a href="./index.html"><img src="./images/logo-dark.png" alt="logo"></a></h1>
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+    </div>
   </header>
   <main>
     <div class="title">
       <h2>art direction branding web design</h2>
-      <p>We collaborate with people, teams, and business to develop design systems, strategies,
-        and processes to do a better creative
-        work every dqy.</p>
+      <p>We collaborate with people, teams, and business to develop design systems, strategies, and processes to do a better creative work every day.</p>
       <a href="#">more view</a>
     </div>
   </main>
   <div class="section1">
     <ul>
-      <li>
-        <h3>78%</h3>
-        <h4>marketing</h4>
-        <p>We are a passionate digital design agency</p>
+      <li class="achievement achievement1">
+        <div class="item">
+          <h3>78%</h3>
+          <h4>marketing</h4>
+          <p>We are a passionate digital design agency</p>
+        </div>
       </li>
-      <li>
-        <h3>125K</h3>
-        <h4>branding</h4>
-        <p>We are a passionate digital design agency</p>
+      <li class="achievement achievement2">
+        <div class="item">
+          <h3>125K</h3>
+          <h4>branding</h4>
+          <p>We are a passionate digital design agency</p>
+        </div>
       </li>
-      <li>
-        <h3>100+</h3>
-        <h4>branding</h4>
-        <p>We are a passionate digital design agency</p>
+      <li class="achievement achievement3">
+        <div class="item">
+          <h3>100+</h3>
+          <h4>branding</h4>
+          <p>We are a passionate digital design agency</p>
+        </div>
       </li>
-      <li>
-        <h3>65M</h3>
-        <h4>development</h4>
-        <p>We are a passionate digital design agency</p>
+      <li class="achievement achievement4">
+        <div class="item">
+          <h3>65M</h3>
+          <h4>development</h4>
+          <p>We are a passionate digital design agency</p>
+        </div>
       </li>
     </ul>
   </div>
   <div class="section2">
     <div class="class2-1">
-      <img src="" alt="">
-      <div class="description1">
+      <img src="./images/img-03.jpg" alt="Glamping" class="img">
+      <div class="description description1">
         <p>office decor</p>
         <h2>we decorate your office</h2>
         <p>We collaborate with people, teams, and business to develop design systems, strategies, and processes to do a better creative work everyday.</p>
@@ -56,9 +68,9 @@
       </div>
     </div>
     <div class="class2-2">
-      <img src="" alt="">
-      <div class="description2">
-        <p>dffice decor</p>
+      <img src="./images/img-044.jpg" alt="pouring coffee" class="img">
+      <div class="description description2">
+        <p>office decor</p>
         <h2>Digital works with love</h2>
         <p>We collaborate with people, teams, and business to develop design systems, strategies, and processes to do a better creative work everyday.</p>
         <a href="#">more view</a>
@@ -66,105 +78,128 @@
     </div>
   </div>
   <div class="section3">
-    <h4>in an ideal world this text wouldn't exist, a client would acknowledge the importance </h4>
+    <h4>In an ideal world this text wouldn't exist, a client would acknowledge the importance </h4>
     <p>In an ideal world this text wouldn't exist, a client would acknowledge the important of having web copy before the design starts. Needless to say it's very important, content is king and people are beginning to understand that. However, back over in reality some project schedules and budgets don't allow for web copy to be written before the design phase, this is sad but true.</p>
-    <div class="video"><video src="#"></video></div>
+    <div class="video"><iframe src="https://player.vimeo.com/video/544444262?control=1&autoplay=1&muted=1&background=1&loop=1" frameborder="“0”" data-fullscreeneo="" allowfullscreen allow="autoplay"></iframe></div>
   </div>
   <div class="section4">
-    <div class="class4-1">
-      <h4>01</h4>
-      <h3>social media</h3>
-      <a href="#">아이콘</a>
+    <div class="class class4-1">
+      <div class="content content4-1">
+        <h4>01</h4>
+        <h3>social media</h3>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+      </div>
     </div>
-    <div class="class4-2">
-      <h4>02</h4>
-      <h3>This theme does everything you could possibly want it to 
+    <div class="class class4-2">
+      <div class="content content4-2">
+        <h4>02</h4>
+        <h3>This theme does everything you could possibly want it to 
         do and, it is beautifully designed.
         </h3>
-      <a href="#">아이콘</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+      </div>
     </div>
-    <div class="class4-3">
-      <h4>03</h4>
-      <h3>development</h3>
-      <a href="#">아이콘</a>
+    <div class="class class4-3">
+      <div class="content content4-3">
+        <h4>03</h4>
+        <h3>development</h3>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+      </div>
     </div>
-    <div class="class4-4">
-      <h4>04</h4>
-      <h3>branding</h3>
-      <a href="#">아이콘</a>
+    <div class="class class4-4">
+      <div class="content content4-4">
+        <h4>04</h4>
+        <h3>branding</h3>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+      </div>
     </div>
-    <div class="class4-5">
-      <h4>05</h4>
-      <h3>This theme does everything you could possibly want it to 
+    <div class="class class4-5">
+      <div class="content content4-5">
+        <h4>05</h4>
+        <h3>This theme does everything you could possibly want it to 
         do and, it is beautifully designed.</h3>
-      <a href="#">아이콘</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+      </div>
     </div>
-    <div class="class4-6">
-      <img src="" alt="">
-      <h3>branding</h3>
-      <p>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</p>
+    <div class="class class4-6">
+      <div class="content content4-6">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#003028}</style><path d="M560 160A80 80 0 1 0 560 0a80 80 0 1 0 0 160zM55.9 512H381.1h75H578.9c33.8 0 61.1-27.4 61.1-61.1c0-11.2-3.1-22.2-8.9-31.8l-132-216.3C495 196.1 487.8 192 480 192s-15 4.1-19.1 10.7l-48.2 79L286.8 81c-6.6-10.6-18.3-17-30.8-17s-24.1 6.4-30.8 17L8.6 426.4C3 435.3 0 445.6 0 456.1C0 487 25 512 55.9 512z"/></svg>
+        <h3>branding</h3>
+        <p>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</p>
+      </div>
     </div>
-    <div class="class4-7">
-      <img src="" alt="">
-      <h3>sicial media</h3>
-      <p>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</p>
-      <a href="#">아이콘</a>
+    <div class="class class4-7">
+      <div class="content content4-7">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M51.7 295.1l31.7 6.3c7.9 1.6 16-.9 21.7-6.6l15.4-15.4c11.6-11.6 31.1-8.4 38.4 6.2l9.3 18.5c4.8 9.6 14.6 15.7 25.4 15.7c15.2 0 26.1-14.6 21.7-29.2l-6-19.9c-4.6-15.4 6.9-30.9 23-30.9h2.3c13.4 0 25.9-6.7 33.3-17.8l10.7-16.1c5.6-8.5 5.3-19.6-.8-27.7l-16.1-21.5c-10.3-13.7-3.3-33.5 13.4-37.7l17-4.3c7.5-1.9 13.6-7.2 16.5-14.4l16.4-40.9C303.4 52.1 280.2 48 256 48C141.1 48 48 141.1 48 256c0 13.4 1.3 26.5 3.7 39.1zm407.7 4.6c-3-.3-6-.1-9 .8l-15.8 4.4c-6.7 1.9-13.8-.9-17.5-6.7l-2-3.1c-6-9.4-16.4-15.1-27.6-15.1s-21.6 5.7-27.6 15.1l-6.1 9.5c-1.4 2.2-3.4 4.1-5.7 5.3L312 330.1c-18.1 10.1-25.5 32.4-17 51.3l5.5 12.4c8.6 19.2 30.7 28.5 50.5 21.1l2.6-1c10-3.7 21.3-2.2 29.9 4.1l1.5 1.1c37.2-29.5 64.1-71.4 74.4-119.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm144.5 92.1c-2.1 8.6 3.1 17.3 11.6 19.4l32 8c8.6 2.1 17.3-3.1 19.4-11.6s-3.1-17.3-11.6-19.4l-32-8c-8.6-2.1-17.3 3.1-19.4 11.6zm92-20c-2.1 8.6 3.1 17.3 11.6 19.4s17.3-3.1 19.4-11.6l8-32c2.1-8.6-3.1-17.3-11.6-19.4s-17.3 3.1-19.4 11.6l-8 32zM343.2 113.7c-7.9-4-17.5-.7-21.5 7.2l-16 32c-4 7.9-.7 17.5 7.2 21.5s17.5 .7 21.5-7.2l16-32c4-7.9 .7-17.5-7.2-21.5z"/></svg>
+        <h3>social media</h3>
+        <p>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</p>
+      </div>
     </div>
-    <div class="class4-8">
-      <img src="" alt="">
-      <h3>graphics</h3>
-      <p>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</p>
+    <div class="class class4-8">
+      <div class="content content4-8">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#1e3028}</style><path d="M512 32c0 113.6-84.6 207.5-194.2 222c-7.1-53.4-30.6-101.6-65.3-139.3C290.8 46.3 364 0 448 0h32c17.7 0 32 14.3 32 32zM0 96C0 78.3 14.3 64 32 64H64c123.7 0 224 100.3 224 224v32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V320C100.3 320 0 219.7 0 96z"/></svg>
+        <h3>graphics</h3>
+        <p>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</p>
+      </div>
     </div>
-    <img src="" alt="">
-    <div class="class4-9">
-      <h3>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</h3>
+    <div class="class class4-9">
+      <div class="content content4-9">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M256 80C141.1 80 48 173.1 48 288V392c0 13.3-10.7 24-24 24s-24-10.7-24-24V288C0 146.6 114.6 32 256 32s256 114.6 256 256V392c0 13.3-10.7 24-24 24s-24-10.7-24-24V288c0-114.9-93.1-208-208-208zM80 352c0-35.3 28.7-64 64-64h16c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H144c-35.3 0-64-28.7-64-64V352zm288-64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H352c-17.7 0-32-14.3-32-32V320c0-17.7 14.3-32 32-32h16z"/></svg>
+        <h3>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</h3>
+      </div>
     </div>
-    <div class="class4-10">
-      <img src="" alt="">
+    <div class="class class4-10">
+      <div class="content content4-10">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#003028}</style><path d="M96 320c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2C64.7 126.1 64 119.1 64 112C64 50.1 114.1 0 176 0c43.1 0 80.5 24.3 99.2 60c14.7-17.1 36.5-28 60.8-28c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c53 0 96 43 96 96s-43 96-96 96H96zm-6.8 52c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3v3c0 26.5-21.5 48-48 48s-48-21.5-48-48v-3c0-8.5 2.1-16.9 6.2-24.3L89.2 372zm160 0c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3v3c0 26.5-21.5 48-48 48s-48-21.5-48-48v-3c0-8.5 2.1-16.9 6.2-24.3L249.2 372zm124.9 64.6L409.2 372c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3v3c0 26.5-21.5 48-48 48s-48-21.5-48-48v-3c0-8.5 2.1-16.9 6.2-24.3z"/></svg>
       <h3>development</h3>
       <p>Working at the nexus of aesthetics and sustainability to craft meaningful design ideas that endure.</p>
+      </div>
     </div>
   </div>
   <div class="section5">
-    <div class="portfolio">
+    <div class="fortpolio">
       <h3>Digital works with love</h3>
-      <div><a href="#">아이콘</a></div>
+      <div class="fortpolioImg">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#1D2021}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></a>
+      </div>
       <h4>one image</h4>
     </div>
   </div>
   <div class="section6">
     <ul>
-      <li><img src="" alt="addidas logo"></li>
-      <li><img src="" alt="pepe logo"></li>
-      <li><img src="" alt="puma logo"></li>
-      <li><img src="" alt="rolex logo"></li>
-      <li><img src="" alt="disney logo"></li>
-      <li><img src="" alt="converse logo"></li>
-      <li><img src="" alt="disney logo"></li>
-      <li><img src="" alt="converse logo"></li>
-      <li><img src="" alt="mtv logo"></li>
-      <li><img src="" alt="playboy logo"></li>
-      <li><img src="" alt="rbk logo"></li>
-      <li><img src="" alt="revi's logo"></li>
-      <li><img src="" alt="gucci logo"></li>
-      <li><img src="" alt="armani jeans logo"></li>
-      <li><img src="" alt="gucci logo"></li>
-      <li><img src="" alt="armani jeans logo"></li>
+      <li><img src="./images/client-01.png" alt="addidas logo"></li>
+      <li><img src="./images/client-03.png" alt="pepe logo"></li>
+      <li><img src="./images/client-05.png" alt="puma logo"></li>
+      <li><img src="./images/client-07.png" alt="rolex logo"></li>
+      <li><img src="./images/client-09.png" alt="disney logo"></li>
+      <li><img src="./images/client-11.png" alt="converse logo"></li>
+      <li><img src="./images/client-09.png" alt="disney logo"></li>
+      <li><img src="./images/client-11.png" alt="converse logo"></li>
+      <li><img src="./images/client-02.png" alt="mtv logo"></li>
+      <li><img src="./images/client-04.png" alt="playboy logo"></li>
+      <li><img src="./images/client-06.png" alt="rbk logo"></li>
+      <li><img src="./images/client-08.png" alt="revi's logo"></li>
+      <li><img src="./images/client-10.png" alt="gucci logo"></li>
+      <li><img src="./images/client-12.png" alt="armani jeans logo"></li>
+      <li><img src="images/client-10.png" alt="gucci logo"></li>
+      <li><img src="./images/client-12.png" alt="armani jeans logo"></li>
     </ul>
   </div>
   <div class="section7">
     <div class="contact">
-      <h4>Your new project? Please geet in touch</h4>
-      <dt>ADDRESS</dt>
-      <dd>795 Folsom Ave, Suite 600 San Francisco</dd>
-      <dt>TEL</dt>
-      <dd>02-1234-5678</dd>
-      <dt>FAX</dt>
-      <dd>02-1234-5678</dd>
+      <h4>Your new project? Please get in touch</h4>
+      <dl>
+        <dt>ADDRESS</dt>
+        <dd>795 Folsom Ave, Suite 600 San Francisco</dd>
+        <dt>TEL</dt>
+        <dd>02-1234-5678</dd>
+        <dt>FAX</dt>
+        <dd>02-1234-5678</dd>
+      </dl>
     </div>
-    <form action="">
-      <input type="name" id="userName" placeholder="Your full name">
-      <input type="emil" id="userEmail" placeholder="Your Email">
+    <form>
+      <input type="text" id="userName" placeholder="Your full name">
+      <input type="email" id="userEmail" placeholder="Your Email">
       <input type="tel" id="userTel" placeholder="Phone">
       <textarea name="text" id="text" placeholder="Describe your project"></textarea>
       <button type="submit" id="submit">개인정보 동의 후 전송</button>

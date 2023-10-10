@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Thin.woff2) format(woff2);
+    font-style: thin;
+    font-weight: thin;
+    font-weight: 300;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Regular.woff2) format(woff2);
+    font-style: regular;
+    font-weight: regular;
+    font-weight: 400;
+    font-display: swap;
+  }
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-Medium.woff2) format(woff2);
+  font-style: middle;
+  font-weight: middle;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Bold.woff2) format(woff2);
+    font-style: bold;
+    font-weight: bold;
+    font-weight: 700;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Black.woff2) format(woff2);
+    font-style: extraBold;
+    font-weight: extraBold;
+    font-weight: 800;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'), url(./fonts/NotoSansKR-Thin.woff2) format(woff2);
+    font-style: thin;
+    font-weight: thin;
+    font-weight: 300;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'), url(./fonts/NotoSansKR-Regular.woff2) format(woff2);
+    font-style: thin;
+    font-weight: thin;
+    font-weight: 400;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'), url(./fonts/NotoSansKR-Medium.woff2) format(woff2);
+    font-style: middle;
+    font-weight: middle;
+    font-weight: 500;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'), url(./fonts/NotoSansKR-Bold.woff2) format(woff2);
+    font-style: bold;
+    font-weight: bold;
+    font-weight: 700;
+    font-display: swap;
+  }
+
+
+
