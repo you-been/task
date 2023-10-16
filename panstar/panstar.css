@@ -98,7 +98,7 @@ header .mainBar .subMenu .subMenu_wrap .languageSelect_li a {color: black; font-
 header .mainBar .subMenu .subMenu_wrap .languageSelect_btn:hover + .languageSelect_li {display: block;}
 
 /*** main ****/
-main {height: calc(100vh - 98px); display: flex; flex-direction: column; justify-content: center;}
+main {height: 100vh; display: flex; flex-direction: column; justify-content: center;}
 main .bgVideo_wrapper {width: 100%; z-index: -1; position: absolute; top: 0; left: 0;}
 main .bgVideo {width: 100%;}
 main .inner {
@@ -168,7 +168,7 @@ main .inner .side_btn a:nth-child(2) {margin-top: 17px;}
 .section_glance .glance li:nth-child(4) {border-right: none;}
 .section_glance .glance li h3 {font-family: 'play', sans-serif; font-size: 1.5rem; margin: 35px 0 0;}
 .section_glance .glance li h3 strong {font-size: 66px;}
-.section_glance .glance li h4 {font-size: 2rem; margin: 0; font-weight: 400; color: #2e3758;}
+.section_glance .glance li h4 {font-size: 2rem; margin: 0; font-weight: 500; color: #2e3758;}
 .section_glance .glance li p {font-size: 1.6rem; margin: 0;}
 .section_glance .glance li h3::after {
   content: "";
@@ -349,6 +349,7 @@ main .inner .side_btn a:nth-child(2) {margin-top: 17px;}
 .section_contact p {margin: 5 0 25px; font-size: 1.7rem; color: #666;}
 .section_contact .contact_content {display: flex; height: 410px}
 .section_contact .contact_content .pressRelease {flex-basis: 37.5%; position: relative;}
+
 .section_contact .contact_content .notice {flex-basis: 43.75%; padding: 10px 49px 0;}
 .section_contact .contact_content .recruit {flex-basis: 18.75%;}
 .section_contact .contact_content .pressRelease {
@@ -360,11 +361,15 @@ main .inner .side_btn a:nth-child(2) {margin-top: 17px;}
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 0; top: 0;
+  z-index: 1;
 }
 .section_contact .contact_content .pressRelease .data {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  top: 60px;
+  z-index:10;
 }
 .section_contact .contact_content .pressRelease h3 {
   background-color: #f2851f; 
@@ -375,23 +380,37 @@ main .inner .side_btn a:nth-child(2) {margin-top: 17px;}
   line-height: 50px;
   margin: 0;
   font-size: 1.7rem;
+  position: absolute;
+  z-index:10;
 }
 .section_contact .contact_content .pressRelease h4 {
-  font-size: 4.4rem;
-  margin: 0 0 25px;
+  font-size: 3.8rem;
+  margin: 25px 0 0;
   color: white;
   font-weight: 500;
   line-height: 1.5em;
   word-break: break-all;
   width: 80%;
+  min-width: 80%;
 }
 .section_contact .contact_content .pressRelease p:nth-of-type(1) {
   font-family: 'Play', sans-serif; 
+  color: white;
   font-size: 1.8rem;
   font-weight: bold;
+  position: absolute;
+  z-index:10;
+  top: 230px;
 }
 .section_contact .contact_content .pressRelease p:nth-of-type(2) {
-  width: 130px; height: 42px; border: 1px solid white; line-height: 42px;
+  width: 130px; 
+  height: 42px; 
+  border: 1px solid white; 
+  line-height: 42px;
+  position: absolute;
+  z-index:10;
+  top: 260px;
+  color: white;
 }
 .section_contact .contact_content .notice .notice_header {
   display: flex; justify-content: space-between; margin: 0 0 20px;

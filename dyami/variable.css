@@ -1,0 +1,18 @@
+/* variable.css 변수 선언 */
+
+:root {
+  --main-font-ko: "Noto Sans KR", -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  --main-font-en: "Montserrat", -apple-system, BlinkMacSystemFont, Arial,
+    sans-serif;
+
+  --font-size-sub-title: 5.6rem;
+  --font-size-main: 1.8rem;
+  --font-size-main-title: 7.2rem;
+  --font-size-mini-title2: 2.4rem;
+  --font-size-mini-title1: 3.2rem;
+
+  --point-color: #69a9c5;
+  --menu-color: #444444;
+  --main-color: #212529;
+}

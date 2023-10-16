@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@keyframes ani1 {
+  0% {
+    background-color: rgb(255, 218, 224);
+  }
+  50% {
+    background-color: rgb(182, 207, 182);
+  }
+  100% {
+    background-color: #ddd;
+  }
+}
